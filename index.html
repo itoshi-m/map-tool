@@ -29,9 +29,11 @@
   <body>
     <div id="map"></div>
     <td><div id="sidebar"></div></td>
-    <script src="constants.js"></script>
+<!--     <script src="constants.js"></script> -->
     <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBOh9PmKtguNstKL5dDA0P8xQGx3ov1Nvo&callback=initMap" async defer></script>
     <script>
+      const API_KEY = 'AIzaSyBOh9PmKtguNstKL5dDA0P8xQGx3ov1Nvo';
+      const SHEET_ID = '17zoZgnL8gd2H3PmCSI8DQ8QM5ztfRNNspy_heQYcRMo';
       var map;
       var marker = [];
       var infoWindow = [];
